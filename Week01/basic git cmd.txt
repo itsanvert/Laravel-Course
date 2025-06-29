@@ -1,0 +1,22 @@
+# Initialize Git repo
+$ git init
+
+# Add and commit logo.jpg
+$ git add logo.jpg
+$ git commit -m "SBKU Logo"
+
+# Rename branch to main
+$ git branch -M main
+
+# Connect to GitHub remote
+$ git remote add origin https://github.com/itsanvert/test-git-github.git
+
+# Push logo.jpg commit
+$ git push -u origin main
+
+# Add and commit remaining images
+$ git add .
+$ git commit -m "Cat and Dog Picture"
+
+# Push all changes
+$ git push origin main
